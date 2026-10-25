@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo Sobre Gatos - Inicio</title>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <i class="fa-solid fa-cat text-danger me-1"></i> Todo Sobre Gatos
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="razas.html">Razas</a></li>
+            <li class="nav-item"><a class="nav-link" href="alimentacion.html">Alimentación</a></li>
+            <li class="nav-item"><a class="nav-link" href="hogar.html">Baño</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container my-5">
+    <!-- Presentación -->
+    <section class="row align-items-center mb-5">
+      <div class="col-md-7">
+        <span class="etiqueta-pastel">Guía de Cuidados</span>
+        <h1 class="mt-2">Bienvenido a la Guía Felina</h1>
+        <p class="mt-3">
+          El simple hecho de pensar en llevar a casa a una mascota es uno de los desafíos más grandes que uno como dueño puede tener. Si estás pensando en tener un gatito en casa, en este sitio web aprenderás todo lo que debes saber sobre su cuidado para comenzar una nueva vida juntos.
+        </p>
+        <a href="razas.html" class="btn btn-pastel mt-2">Conocer Razas</a>
+      </div>
+      <div class="col-md-5 mt-4 mt-md-0">
+        <div class="zoom-foto">
+          <img src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?auto=format&fit=crop&w=600&q=80" alt="Gatito tierno">
+        </div>
+      </div>
+    </section>
+
+    <!-- Secciones del sitio -->
+    <section>
+      <h2 class="text-center mb-4">Temas Principales</h2>
+      <div class="row">
+        
+        <article class="col-md-4">
+          <div class="tarjeta-gato text-center">
+            <div class="zoom-foto mb-3">
+              <img src="https://images.unsplash.com/photo-1573865526739-10659fec78a5?auto=format&fit=crop&w=500&q=80" alt="Gato descansando">
+            </div>
+            <h3>Variedad de Razas</h3>
+            <p>Conoce los diferentes mantos: corto, largo, rizados o sin pelo y su personalidad.</p>
+            <a href="razas.html" class="btn btn-sm btn-pastel">Leer más</a>
+          </div>
+        </article>
+
+        <article class="col-md-4">
+          <div class="tarjeta-gato text-center">
+            <div class="zoom-foto mb-3">
+              <img src="https://images.unsplash.com/photo-1548767797-d8c844163c4c?auto=format&fit=crop&w=500&q=80" alt="Comida de gato">
+            </div>
+            <h3>Alimentación</h3>
+            <p>Son carnívoros estrictos. Aprende sobre proteínas, taurina y qué alimentos no darles.</p>
+            <a href="alimentacion.html" class="btn btn-sm btn-pastel">Leer más</a>
+          </div>
+        </article>
+
+        <article class="col-md-4">
+          <div class="tarjeta-gato text-center">
+            <div class="zoom-foto mb-3">
+              <img src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?auto=format&fit=crop&w=500&q=80" alt="Gato en el hogar">
+            </div>
+            <h3>Hogar y Baño</h3>
+            <p>Rascadores, seguridad con ventanas, ubicación de areneros y frecuencia de baño.</p>
+            <a href="hogar.html" class="btn btn-sm btn-pastel">Leer más</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="mb-0">Todo Sobre Gatos &copy; 2026 - Proyecto Escolar</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
