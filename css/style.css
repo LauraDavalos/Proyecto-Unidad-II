@@ -1,0 +1,91 @@
+/* Tipografías de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@400;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FAF7F2; /* Crema suave */
+  color: #333333;
+}
+
+h1, h2, h3, h4, .navbar-brand {
+  font-family: 'Fredoka', cursive;
+}
+
+/* Barra de navegación */
+.barra-navegacion {
+  background-color: #FFFFFF;
+  border-bottom: 2px solid #F0E6DD;
+}
+
+.enlace-menu {
+  color: #555555 !important;
+  font-weight: 600;
+}
+
+.enlace-menu:hover, .enlace-menu.active {
+  color: #E27D8A !important;
+}
+
+/* =========================================
+   ZOOM EN IMÁGENES AL PASAR EL CURSOR
+   ========================================= */
+.contenedor-zoom {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.imagen-gato {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.contenedor-zoom:hover .imagen-gato {
+  transform: scale(1.08); /* Aumenta 8% su tamaño */
+}
+
+/* Tarjetas de contenido */
+.tarjeta-felina {
+  background-color: #FFFFFF;
+  border: 1px solid #EADCD1;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* Botones pastel */
+.boton-pastel {
+  background-color: #EFA6AD;
+  color: #FFFFFF;
+  border: none;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 8px 18px;
+}
+
+.boton-pastel:hover {
+  background-color: #E27D8A;
+  color: #FFFFFF;
+}
+
+/* Etiquetas destacadas */
+.etiqueta-pastel {
+  background-color: #F8D8DC;
+  color: #8C404B;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+/* Pie de página */
+.pie-pagina {
+  background-color: #EFE9E2;
+  color: #666666;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
