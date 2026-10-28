@@ -30,7 +30,10 @@ h4 .navbar-brand {
   font-weight: 600;
 }
 
-.enlace-menu:hover, .enlace-menu.active {
+.enlace-menu:hover {
+  color: #E27D8A;
+}
+.enlace-menu.active{
   color: #E27D8A;
 }
 
