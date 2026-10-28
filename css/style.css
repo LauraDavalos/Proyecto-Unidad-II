@@ -47,8 +47,15 @@ h4 .navbar-brand {
   height: 200px;
   transition: transform 0.3s ease;
 }
-
+.imagen-gatoo {
+  width: 80%;
+  height: 400px;
+  transition: transform 0.3s ease;
+}
 .contenedor-zoom:hover .imagen-gato {
+  transform: scale(1.08); 
+}
+.contenedor-zoom:hover .imagen-gatoo {
   transform: scale(1.08); 
 }
 
@@ -63,7 +70,7 @@ h4 .navbar-brand {
 
 /* Botones que se me olvida jajaja */
 .boton-pastel {
-  background-color: #EFA6AD;
+  background-color: #ee1328;
   color: #FFFFFF;
   border: none;
   font-weight: 700;
