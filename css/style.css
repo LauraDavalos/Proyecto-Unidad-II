@@ -1,4 +1,3 @@
-/* Tipografías de Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&family=Nunito:wght@400;700&display=swap');
 
 body {
@@ -50,7 +49,7 @@ h4 .navbar-brand {
   transform: scale(1.08); 
 }
 
-/* Tarjetas de contenido */
+
 .tarjeta-felina {
   background-color: #FFFFFF;
   border: 1px solid #EADCD1;
@@ -59,7 +58,7 @@ h4 .navbar-brand {
   margin-bottom: 15px;
 }
 
-/* Botones pastel */
+/* Botones que se me olvida jajaja */
 .boton-pastel {
   background-color: #EFA6AD;
   color: #FFFFFF;
@@ -74,7 +73,7 @@ h4 .navbar-brand {
   color: #FFFFFF;
 }
 
-/* Etiquetas destacadas */
+
 .etiqueta-pastel {
   background-color: #F8D8DC;
   color: #8C404B;
@@ -86,7 +85,7 @@ h4 .navbar-brand {
   margin-bottom: 8px;
 }
 
-/* Pie de página */
+
 .pie-pagina {
   background-color: #EFE9E2;
   color: #666666;
